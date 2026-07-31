@@ -1,198 +1,113 @@
+---
 
-# 🏛 Security Knowledge Hub  
-**総合セキュリティ学習ポータル（Pentest / Red Team / CTF / Blue Team / Cloud / Tools）**
+# 🏛 **Security Knowledge Hub**  
+総合セキュリティ学習ポータル  
+（Pentest / Bug Bounty / Red Team / CTF / Blue Team / Cloud / Tools）
 
-このリポジトリは、以下の分野の個人的な学習メモです。
+---
 
-- Penetration Testing（攻撃・侵入テスト）  
-- Red Team Operations（攻撃演習・戦略）  
-- CTF（Crypt / Forensics / Pwn / Reverse / Web / Misc）  
-- Blue Team（DFIR / Threat Hunting / SOC）  
-- Cloud Security（AWS / Azure / GCP）  
-- Secure Coding / DevSecOps  
-- Tools（Burp / Wireshark / Ghidra / pwntools / Volatility）
+## 🎯 このポータルの目的
+Security-Knowledge-Hub は、慎吾さんが管理する  
+**セキュリティ学習・実務・演習の総合ポータル（ハブ）**です。
 
-各分野は **専用リポジトリ**として独立管理し、  
+各ジャンルは **専用リポジトリ**として独立管理し、  
 このポータルから体系的にアクセスできるようにしています。
 
 ---
 
-# 📘 1. Fundamentals（基礎）
-- 法的・倫理的ガイドライン（RoE / 許可範囲 / 証跡保全）
-- ラボ環境構築（VMware / Kali / Sysmon / ELK）
-- Linux / Windows 基本コマンド
-- ネットワーク基礎（nmap / tcpdump / Wireshark）
-- 暗号・認証・プロトコル基礎
+# 📘 **1. Pentest（攻撃・侵入テスト）**
+体系的なペンテスト手法、MITRE ATT&CK に沿った攻撃技術、  
+Web / Cloud / Mobile / AD / 侵入後の動きまで網羅。
+
+👉 **Pentest-Playbook**  
+`https://github.com/5h1n6o/Pentest-Playbook` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FPentest-Playbook")
 
 ---
 
-# 🛡 2. Penetration Testing（攻撃・侵入テスト）
-> MITRE ATT&CK に沿った体系的な Pentest リポジトリ
+# 🐞 **2. Bug Bounty（バグバウンティ）**
+実際の企業サービスを対象にした脆弱性調査。  
+Recon / Web / API / Cloud / Mobile / レポート作成まで網羅。
 
-**リポジトリ：**  
-👉 `https://github.com/5h1n6o/Ethical-Hacking-Resources` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FEthical-Hacking-Resources")
-
-### 章構成
-- OSINT（情報収集）  
-- Reconnaissance（偵察）  
-- Resource Development（リソース開発）  
-- Initial Access（初期侵入）  
-- Execution / Persistence / PrivEsc  
-- Defense Evasion  
-- Credential Access  
-- Discovery  
-- Lateral Movement  
-- Collection  
-- Command & Control  
-- Exfiltration  
-- Impact  
+👉 **BugBounty-Playbook**  
+`https://github.com/5h1n6o/BugBounty-Playbook` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FBugBounty-Playbook")
 
 ---
 
-# 🔴 3. Red Team Operations（レッドチーム演習）
-> 組織の防御力を評価するための総合攻撃演習
+# 🔴 **3. Red Team Operations（攻撃演習・戦略）**
+組織の防御力を評価するための総合攻撃演習。  
+Threat Modeling / Initial Access / Long-term Ops / Evasion / Reporting。
 
-### 3.1 Methodology  
-- Threat Modeling  
-- Kill Chain / ATT&CK ベースの攻撃設計  
-- Purple Team 連携  
-
-### 3.2 Campaign Planning  
-- 目的設定（Crown Jewel / Detection Gaps）  
-- 攻撃シナリオ設計  
-- RoE（Rules of Engagement）  
-
-### 3.3 Initial Access  
-- フィッシングキャンペーン  
-- 物理侵入（Badge Cloning / Tailgating）  
-- 社会工学（OSINT → 誘導）  
-
-### 3.4 Long-term Operations  
-- C2 Infrastructure  
-- EDR 回避  
-- ログ回避  
-- 権限昇格 → 横展開 → 目的達成  
-
-### 3.5 Reporting  
-- 攻撃シナリオの再現  
-- 防御側の検知ポイント  
-- 改善提案（Detection Engineering）
+👉 **RedTeam-Operations**  
+`https://github.com/5h1n6o/RedTeam-Operations` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FRedTeam-Operations")
 
 ---
 
-# 🎮 4. Capture The Flag（CTF）
-CTF はジャンルごとに体系が異なるため、**分野別リポジトリ**として整理。
+# 🎮 **4. Capture The Flag（CTF）**
+CTF はジャンルごとに体系が異なるため、  
+**ジャンル別リポジトリ**として分割しています。
 
-## 🔐 Cryptography  
-👉 `CTF-Cryptography`  
-- RSA / ECC / AES  
-- Hash / OTP  
-- Tools: sage / RsaCtfTool  
+### 🔐 Cryptography  
+`https://github.com/5h1n6o/CTF-Cryptography` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FCTF-Cryptography")
 
-## 🧬 Forensics  
-👉 `CTF-Forensics`  
-- Memory / Disk / Network  
-- Steganography  
-- Tools: Volatility / Wireshark  
+### 🧬 Forensics  
+`https://github.com/5h1n6o/CTF-Forensics` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FCTF-Forensics")
 
-## 🧱 Pwnable  
-👉 `CTF-Pwn`  
-- Stack / Heap  
-- ROP / Format String  
-- Tools: pwntools / gdb / gef  
+### 🧱 Pwn  
+[https://github.com/5h1n6o/CTF-Pwn](https://github.com/5h1n6o/CTF-Pwn)
 
-## 🔍 Reverse Engineering  
-👉 `CTF-Reverse`  
-- Static / Dynamic  
-- Malware  
-- Tools: Ghidra / IDA / radare2  
+### 🔍 Reverse  
+`https://github.com/5h1n6o/CTF-Reverse` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FCTF-Reverse")
 
-## 🌐 Web  
-👉 `CTF-Web`  
-- SQLi / XSS / SSRF  
-- Template Injection  
-- Tools: Burp / ffuf  
+### 🌐 Web  
+[https://github.com/5h1n6o/CTF-Web](https://github.com/5h1n6o/CTF-Web)
 
-## 🎲 Misc  
-👉 `CTF-Misc`  
-- Encoding  
-- OSINT  
-- Puzzle  
+### 🎲 Misc  
+[https://github.com/5h1n6o/CTF-Misc](https://github.com/5h1n6o/CTF-Misc)
 
 ---
 
-# 🔵 5. Blue Team（防御・解析）
-- DFIR（Digital Forensics & Incident Response）  
-- Threat Hunting  
-- Malware Analysis  
-- Log Analysis（Sysmon / ELK / LimaCharlie）  
-- Detection Engineering（Sigma / YARA）  
-- SOC 運用  
+# 🔵 **5. Blue Team（防御・検知・解析）**
+DFIR / Threat Hunting / Malware Analysis / Log Analysis / Detection Engineering / SOC  
+防御体系は一つにまとまっているため **1リポジトリに統合**。
+
+👉 **BlueTeam-Defense**  
+`https://github.com/5h1n6o/BlueTeam-Defense` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FBlueTeam-Defense")
 
 ---
 
-# ☁️ 6. Cloud Security
-- AWS IAM / Networking / Attack Paths  
-- Azure AD / Conditional Access  
-- GCP IAM / Workload Identity  
-- Cloud Pentest  
-- Cloud DFIR  
+# ☁️ **6. Cloud Security**
+AWS / Azure / GCP の IAM・ネットワーク・攻撃経路・DFIR を体系化。
+
+👉 **Cloud-Security**  
+`https://github.com/5h1n6o/Cloud-Security` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FCloud-Security")
 
 ---
 
-# 🧪 7. Tools & Cheat Sheets
-- Burp Suite  
-- Wireshark  
-- Ghidra / IDA  
-- pwntools  
-- Volatility  
-- impacket  
-- ffuf / gobuster  
-- Sysinternals Suite  
+# 🧪 **7. Tools**
+Burp / Wireshark / Ghidra / IDA / pwntools / Volatility / impacket など  
+セキュリティツールの使い方を体系化。
+
+👉 **Security-Tools**  
+`https://github.com/5h1n6o/Security-Tools` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2F5h1n6o%2FSecurity-Tools")
 
 ---
 
-# 🗺 8. Learning Roadmap（学習ロードマップ）
+# 🗺 **8. Learning Roadmap（学習ロードマップ）**
+各ジャンルの学習ロードマップを整理しています。
 
-## Pentest Roadmap
-1. Networking  
-2. Linux / Windows  
-3. Web Security  
-4. AD / Lateral Movement  
-5. C2 / Evasion  
-6. Reporting  
+- Pentest Roadmap  
+- Bug Bounty Roadmap  
+- Red Team Roadmap  
+- CTF Roadmap  
+- Blue Team Roadmap  
+- Cloud Security Roadmap  
 
-## CTF Roadmap
-1. Web / Crypto  
-2. Reverse  
-3. Pwn  
-4. Forensics  
-5. Misc  
-
-## Red Team Roadmap
-1. Threat Modeling  
-2. OSINT  
-3. Initial Access  
-4. Long-term Ops  
-5. Reporting  
-
-## Blue Team Roadmap
-1. Log Analysis  
-2. DFIR  
-3. Threat Hunting  
-4. Detection Engineering  
+（今後、Mermaid 図で可視化予定）
 
 ---
 
-# 📚 9. References & Resources
-- OWASP  
-- MITRE ATT&CK  
-- NIST SP800  
-- Awesome Lists  
-- Security Blogs  
-- Tools Documentation  
+# 🤝 Contributing
+Pull Request / Issue 歓迎します。  
+体系的なセキュリティ知識ベースを一緒に育てていきましょう。
 
 ---
-
-
-
