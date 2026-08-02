@@ -76,13 +76,15 @@ Burp / Wireshark / Ghidra / IDA / pwntools / Volatility / impacket など
 
 外部サイトのリンクはカテゴリ別に整理しています。
 
-- 🛰 OSINT → `links/osint.md`
-- 🌐 Web Security → `links/web.md`
-- ☁️ Cloud Security → `links/cloud.md`
-- 🔴 Red Team → `links/red-team.md`
-- 🔵 Blue Team → `links/blue-team.md`
-- 🧪 Tools → `links/tools.md`
-- 📚 Books → `links/books.md`
+- 🛰 [OSINT](./links/osint.md)
+- 📘 [Pentest](./links/pentest.md)
+- 🐞 [BugBounty](./links/bugbounty.md)
+- 🔴 [Red Team](./links/redteam.md)
+- 🎮 [CTF](./links/ctf.md)
+- 🔵 [Blue Team](./links/blueteam.md)
+- ☁️ [Cloud Security](./links/cloud.md)
+- 🧪 [Tools](./links/tools.md)
+
   
 ## 🎯 このポータルの目的
 
