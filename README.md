@@ -70,7 +70,6 @@ Burp / Wireshark / Ghidra / IDA / pwntools / Volatility / impacket など
 外部サイトのリンクはカテゴリ別に整理しています。
 
 - 🛰 [OSINT](./links/osint.md)
-- 📘 [Pentest](./links/pentest.md)
 - 🐞 [BugBounty](./links/bugbounty.md)
 - 🔴 [Red Team](./links/redteam.md)
 - 🎮 [CTF](./links/ctf.md)
