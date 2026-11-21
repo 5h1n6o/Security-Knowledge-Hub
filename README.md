@@ -6,14 +6,24 @@
 
 ---
 
+
 ## 🔗 Quick Links（主要リポジトリへの入口）
 
-### 📘 ** Pentest（攻撃・侵入テスト）**
-体系的なペンテスト手法、MITRE ATT&CK に沿った攻撃技術、  
-Web / Cloud / Mobile / AD / 侵入後の動きまで網羅。
+### 🎮 ** Capture The Flag（CTF）**
 
-👉 **[Pentest-Playbook](https://github.com/5h1n6o/Pentest-Playbook)**  
+#### 📘 [Root2Boot](https://github.com/5h1n6o/CTF/blob/main/Cheatsheet/Root2Boot/README.md)
 
+#### 🔐 [Cryptography ](https://github.com/5h1n6o/CTF-Cryptography)
+
+#### 🧬 [Forensics](https://github.com/5h1n6o/CTF-Forensics)
+
+#### 🧱 [Pwn](https://github.com/5h1n6o/CTF-Pwn)
+
+#### 🔍 [Reverse](https://github.com/5h1n6o/CTF-Reverse)
+
+#### 🌐 [Web](https://github.com/5h1n6o/CTF-Web)
+
+#### 🎲 [Misc](https://github.com/5h1n6o/CTF-Misc)
 ---
 
 ### 🐞 ** Bug Bounty（バグバウンティ）**
@@ -30,23 +40,6 @@ Threat Modeling / Initial Access / Long-term Ops / Evasion / Reporting。
 
 👉 **[RedTeam-Operations](https://github.com/5h1n6o/RedTeam-Operations)**  
 
----
-
-### 🎮 ** Capture The Flag（CTF）**
-CTF はジャンルごとに体系が異なるため、  
-**ジャンル別リポジトリ**として分割しています。
-
-#### 🔐 [Cryptography ](https://github.com/5h1n6o/CTF-Cryptography)
-
-#### 🧬 [Forensics](https://github.com/5h1n6o/CTF-Forensics)
-
-#### 🧱 [Pwn](https://github.com/5h1n6o/CTF-Pwn)
-
-#### 🔍 [Reverse](https://github.com/5h1n6o/CTF-Reverse)
-
-#### 🌐 [Web](https://github.com/5h1n6o/CTF-Web)
-
-#### 🎲 [Misc](https://github.com/5h1n6o/CTF-Misc)
 ---
 
 ### 🔵 ** Blue Team（防御・検知・解析）**
